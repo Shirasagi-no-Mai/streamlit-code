@@ -4,3 +4,10 @@ C:\Users\Patrick>cd /d "C:\Users\Patrick\PyCharmMiscProject"
 C:\Users\Patrick\PyCharmMiscProject>.venv\Scripts\python.exe -m streamlit run "Main code.py" --server.port=8502
 
 C:\cloudflared\cloudflared.exe tunnel run --url http://localhost:8502 mystreamlit
+
+
+2026-04-10T17:52:32Z INF Registered tunnel connection connIndex=1 connection=0896c9f8-ce1f-4bdf-8993-6f9c9bf4008e event=0 ip=198.41.200.33 location=lax01 protocol=quic
+2026-04-10T17:52:35Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8501: connectex: No connection could be made because the target machine actively refused it." connIndex=1 event=1 ingressRule=0 originService=http://localhost:8501
+2026-04-10T17:52:35Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8501: connectex: No connection could be made because the target machine actively refused it." connIndex=1 event=1 ingressRule=0 originService=http://localhost:8501
+2026-04-10T17:52:35Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8501: connectex: No connection could be made because the target machine actively refused it." connIndex=1 dest=https://web.cainiaodashboard.com/_stcore/health event=0 ip=198.41.200.33 type=http
+2026-04-10T17:52:35Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8501: connectex: No connection could be made because the target machine actively refused it." connIndex=1 dest=https://web.cainiaodashboard.com/_stcore/host-config event=0 ip=198.41.200.33 type=http
