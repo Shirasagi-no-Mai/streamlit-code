@@ -1,9 +1,9 @@
 
 C:\Users\Patrick>cd /d "C:\Users\Patrick\PyCharmMiscProject"
 
-C:\Users\Patrick\PyCharmMiscProject>.venv\Scripts\python.exe -m streamlit run "Main code.py" --server.port=8502
+C:\Users\Patrick\PyCharmMiscProject>.venv\Scripts\python.exe -m streamlit run "Main code.py" --server.port=8501
 
 
 
-C:\cloudflared\cloudflared.exe tunnel run --url http://10.100.10.164:8502 mystreamlit
+C:\cloudflared\cloudflared.exe tunnel run --url http://10.100.10.164:8501 mystreamlit
 
