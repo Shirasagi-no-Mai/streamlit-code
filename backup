@@ -5,5 +5,5 @@ C:\Users\Patrick\PyCharmMiscProject>.venv\Scripts\python.exe -m streamlit run "M
 
 
 
-cd /d C:\cloudflared
-cloudflared tunnel run --url http://127.0.0.1:8502 mystreamlit
+C:\cloudflared\cloudflared.exe tunnel run --url http://10.100.10.164:8502 mystreamlit
+
